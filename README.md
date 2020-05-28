@@ -6,6 +6,8 @@ another notetaking app
 
 Noteible is a notetaking app that works on desktop, tablet, and mobile devices. Add, edit, and remove notes in a familiar, easy-to-use format.
 
+NOTE: (haha get it) This app uses `localStorage` in order to save and load previous notes. You cannot access notes across devices. There are no accounts or log-ins.
+
 ## Setup/Build
 
 1. Clone this repo.
