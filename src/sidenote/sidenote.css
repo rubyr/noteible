@@ -1,0 +1,34 @@
+.side-note {
+  border-top: 1px solid grey;
+  padding: 10px 10px;
+}
+
+.side-note:first-child {
+  border-top: none;
+}
+
+.focused {
+  background-color: #eee;
+}
+
+.remove-btn {
+  float: right;
+  margin-top: -4px;
+  color: lightcoral;
+  opacity: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.side-note:hover .remove-btn {
+  opacity: 1;
+}
+
+.side-note *:not(button) {
+  pointer-events: none;
+}
+
+.date {
+  color: grey;
+  font-size: 12px;
+}

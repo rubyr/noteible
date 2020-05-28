@@ -1,0 +1,22 @@
+.no-note {
+  line-height: 100vh;
+  color: grey;
+  text-align: center;
+  cursor: pointer;
+  width: 100vw;
+}
+
+.show-sidebar {
+  position: fixed;
+  left: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .show-sidebar {
+    display: none !important;
+  }
+  .no-note {
+    width: calc(100vw - 250px);
+    margin-left: 250px;
+  }
+}

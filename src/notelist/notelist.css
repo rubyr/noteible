@@ -1,0 +1,48 @@
+.note-list {
+  width: 100%;
+  height: calc(100vh - 30px);
+  overflow: scroll;
+  position: fixed;
+  z-index: 100;
+}
+
+.add-note {
+  margin-left: 5px;
+  position: sticky;
+  top: 0;
+  height: 30px;
+  outline: none;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: absolute;
+  transform: translate(-250px, 0);
+  overflow: hidden;
+  float: left;
+  background: #f8f8f8;
+  transition: transform .5s;
+  z-index: 1;
+}
+
+.sidebar.expand {
+  transform: translate(0, 0);
+  transition: transform .5s;
+}
+
+.hide-sidebar {
+  position: absolute;
+  right: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .sidebar {
+    width: 250px;
+    overflow: scroll;
+    transform: translate(0, 0);
+  }
+  .hide-sidebar {
+    display: none;
+  }
+}

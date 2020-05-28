@@ -1,0 +1,32 @@
+.editor {
+  width: 100vw;
+  height: 100vh;
+  padding-left: 30px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.title {
+  border: none;
+  font-size: 32px;
+  font-weight: bold;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.text {
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  flex: 1 0 0;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .editor {
+    width: calc(100vw - 250px);
+  }
+}
