@@ -15,4 +15,6 @@ NOTE: (haha get it) This app uses `localStorage` in order to save and load previ
 1. Run `npm start`
 1. (Optional) To build, run `npm run build`
 
+Alternatively, view the live app at https://rubyr.github.io/noteible/
+
 This app was made using `create-react-app`
