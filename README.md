@@ -1,4 +1,4 @@
-# Noteible
+# Noteible [![Build Status](https://travis-ci.org/rubyr/noteible.svg?branch=master)](https://travis-ci.org/rubyr/noteible)
 
 another notetaking app
 
