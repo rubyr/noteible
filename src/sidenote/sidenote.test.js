@@ -25,10 +25,10 @@ describe("SideNote", () => {
   });
 
   it("should display the note properties", () => {
-    const { getByText } = render(<SideNote note={note} />);
+    const { getByText, getByTestId } = render(<SideNote note={note} />);
     expect(getByText("cool note")).toBeInTheDocument();
     expect(getByText("nice")).toBeInTheDocument();
-    expect(getByText("31st Dec 1969 5:00 pm")).toBeInTheDocument();
+    expect(getByTestId("sidenote-date")).toBeInTheDocument();
   });
 
   it("should trim the title and note content if too long", () => {
