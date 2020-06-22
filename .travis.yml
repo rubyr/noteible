@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - node
+notifications:
+  email: false
+deploy:
+  provider: heroku
+  api_key:
+    secure: s+NMCE9FTH3ZxSvddeffiZCToinquy0dRXUHuiyJeDUMmD7XO+m0iIUUsrDqRnd0rXq2LKqCX8fC2wLj1pwWNosEfcadhoVeZsZaTEqst9a9r9I6r/KOGtshaCSx1AGkei4DAIB3NA0rl5voRaDZvIPbx8a1ojifm6fM66kaKmewbvY1k2R7d4+TR5kotkKbZEwfITBesib6eeyTEX5ojgM7+mRe327ihdyYv/Ef6d/o+IgjP0xilxF0mQ0tHUwvPIyoGX0x3vj4jOHkGlUvvf7MHFrB4UEfBiTOpkWVMHqNtKZIf7E11G4emWsL4uoT1QbO91QHaOqI9CPXAqYafgim/WEBuF2kPKUs9zeKVezOI8jsHA5CQP9HPdNuZr+ZCAR4zaxa44sijJkNOQlfrfhxpbPHHBXlH5ViGjMcI2EGwHd9lE4QOFfOXmyNE9lZcb4pDXJVH5/SaOvDHwt3ciEB83oPiur9/pPN1pfOT0YDBu6mPl7M6h+mvvf5+dLMPxnLHK4ahPwR+urrlxyDYIsoqEGtZ8L459qs8O/I0y7kQRhYZNMN4pI/u91ZuD+SUKXyloaa+hMbQiAxBgwCh4wQo2uLYnM9BYOJJtTbrhGqNSUz8e3z2ggvMeQsHfS7WU5aFMl/4Z21nZ4LLdxC+TFSlz6G6V8524w/qEPHNIk=
+  app: noteible
+  skip-cleanup: true
